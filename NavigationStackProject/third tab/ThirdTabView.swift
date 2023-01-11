@@ -11,6 +11,8 @@ struct ThirdTabView: View {
 	
 	@StateObject var modelDataManager = ModelDataManager()
 	@StateObject var navigationStateManager = NavigationStateManager()
+
+	@SceneStorage("navigationState") var navigationStateData: Data?
 	
     var body: some View {
 		NavigationStack(path: $navigationStateManager.selectionPath) {
@@ -31,6 +33,28 @@ struct ThirdTabView: View {
 		.environmentObject(modelDataManager)
 		.environmentObject(navigationStateManager)
 		.environment(\.colorScheme, .dark)
+//		.task {
+//			// reset during launch
+//			navigationStateManager.data = navigationStateData
+//
+//			// save state to userdefaults
+//			for await _ in navigationStateManager.objectWillChangeSequence {
+//				navigationStateData = navigationStateManager.data
+//			}
+//		}
+		
+//		.onReceive(navigationStateManager.$selectionPath.dropFirst()) { updatedPath in
+		// save state to userdefaults
+//			navigationStateData = navigationStateManager.data
+//		}
+		.onReceive(navigationStateManager.objectWillChange.dropFirst(), perform: { _ in
+			// save state to userdefaults
+			navigationStateData = navigationStateManager.data
+		})
+		.onAppear {
+			// reset during launch
+			navigationStateManager.data = navigationStateData
+		}
     }
 }
 
