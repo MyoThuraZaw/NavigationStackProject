@@ -26,6 +26,6 @@ struct BookDetailView: View {
 
 struct BookDetailView_Previews: PreviewProvider {
     static var previews: some View {
-		BookDestinationView(book: Book(title: "Alice in Wonderland"))
+		BookDetailView(book: Book(title: "Alice in Wonderland"))
 	}
 }

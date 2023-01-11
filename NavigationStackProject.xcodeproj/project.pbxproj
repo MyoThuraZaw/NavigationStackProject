@@ -124,11 +124,11 @@
 			children = (
 				E35D922B296F1CCA007290BA /* view model */,
 				E35D9217296EE615007290BA /* ThirdTabView.swift */,
-				E35D9227296EFCF1007290BA /* MovieDetailView.swift */,
-				E35D9221296EFADA007290BA /* SongDetailView.swift */,
-				E35D9223296EFB3E007290BA /* SettingsView.swift */,
 				E35D921F296EE7BC007290BA /* RootView.swift */,
+				E35D9221296EFADA007290BA /* SongDetailView.swift */,
+				E35D9227296EFCF1007290BA /* MovieDetailView.swift */,
 				E35D9225296EFBF2007290BA /* BookDetailView.swift */,
+				E35D9223296EFB3E007290BA /* SettingsView.swift */,
 			);
 			path = "third tab";
 			sourceTree = "<group>";
