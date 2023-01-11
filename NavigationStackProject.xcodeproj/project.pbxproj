@@ -11,6 +11,21 @@
 		E35D91FE296ED922007290BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D91FD296ED922007290BA /* ContentView.swift */; };
 		E35D9200296ED923007290BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35D91FF296ED923007290BA /* Assets.xcassets */; };
 		E35D9203296ED923007290BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35D9202296ED923007290BA /* Preview Assets.xcassets */; };
+		E35D920D296ED969007290BA /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D920C296ED969007290BA /* FirstTabView.swift */; };
+		E35D920F296EDB16007290BA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D920E296EDB16007290BA /* DetailView.swift */; };
+		E35D9212296EE3AD007290BA /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D9211296EE3AD007290BA /* Book.swift */; };
+		E35D9214296EE409007290BA /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D9213296EE409007290BA /* SecondTabView.swift */; };
+		E35D9216296EE4B7007290BA /* BookDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D9215296EE4B7007290BA /* BookDestinationView.swift */; };
+		E35D9218296EE615007290BA /* ThirdTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D9217296EE615007290BA /* ThirdTabView.swift */; };
+		E35D921A296EE620007290BA /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D9219296EE620007290BA /* Song.swift */; };
+		E35D921C296EE626007290BA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D921B296EE626007290BA /* Movie.swift */; };
+		E35D921E296EE733007290BA /* ModelDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D921D296EE733007290BA /* ModelDataManager.swift */; };
+		E35D9220296EE7BC007290BA /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D921F296EE7BC007290BA /* RootView.swift */; };
+		E35D9222296EFADA007290BA /* SongDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D9221296EFADA007290BA /* SongDetailView.swift */; };
+		E35D9224296EFB3E007290BA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D9223296EFB3E007290BA /* SettingsView.swift */; };
+		E35D9226296EFBF2007290BA /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D9225296EFBF2007290BA /* BookDetailView.swift */; };
+		E35D9228296EFCF1007290BA /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D9227296EFCF1007290BA /* MovieDetailView.swift */; };
+		E35D922A296F1B27007290BA /* NavigationStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D9229296F1B27007290BA /* NavigationStateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +34,21 @@
 		E35D91FD296ED922007290BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E35D91FF296ED923007290BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E35D9202296ED923007290BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E35D920C296ED969007290BA /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		E35D920E296EDB16007290BA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E35D9211296EE3AD007290BA /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		E35D9213296EE409007290BA /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
+		E35D9215296EE4B7007290BA /* BookDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDestinationView.swift; sourceTree = "<group>"; };
+		E35D9217296EE615007290BA /* ThirdTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabView.swift; sourceTree = "<group>"; };
+		E35D9219296EE620007290BA /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		E35D921B296EE626007290BA /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		E35D921D296EE733007290BA /* ModelDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataManager.swift; sourceTree = "<group>"; };
+		E35D921F296EE7BC007290BA /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		E35D9221296EFADA007290BA /* SongDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailView.swift; sourceTree = "<group>"; };
+		E35D9223296EFB3E007290BA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E35D9225296EFBF2007290BA /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		E35D9227296EFCF1007290BA /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		E35D9229296F1B27007290BA /* NavigationStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +81,10 @@
 		E35D91FA296ED922007290BA /* NavigationStackProject */ = {
 			isa = PBXGroup;
 			children = (
+				E35D9210296EE3A2007290BA /* model */,
+				E35D9209296ED948007290BA /* first tab */,
+				E35D920A296ED94E007290BA /* second tab */,
+				E35D920B296ED953007290BA /* third tab */,
 				E35D91FB296ED922007290BA /* NavigationStackProjectApp.swift */,
 				E35D91FD296ED922007290BA /* ContentView.swift */,
 				E35D91FF296ED923007290BA /* Assets.xcassets */,
@@ -65,6 +99,57 @@
 				E35D9202296ED923007290BA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E35D9209296ED948007290BA /* first tab */ = {
+			isa = PBXGroup;
+			children = (
+				E35D920C296ED969007290BA /* FirstTabView.swift */,
+				E35D920E296EDB16007290BA /* DetailView.swift */,
+			);
+			path = "first tab";
+			sourceTree = "<group>";
+		};
+		E35D920A296ED94E007290BA /* second tab */ = {
+			isa = PBXGroup;
+			children = (
+				E35D9213296EE409007290BA /* SecondTabView.swift */,
+				E35D9215296EE4B7007290BA /* BookDestinationView.swift */,
+			);
+			path = "second tab";
+			sourceTree = "<group>";
+		};
+		E35D920B296ED953007290BA /* third tab */ = {
+			isa = PBXGroup;
+			children = (
+				E35D922B296F1CCA007290BA /* view model */,
+				E35D9217296EE615007290BA /* ThirdTabView.swift */,
+				E35D9227296EFCF1007290BA /* MovieDetailView.swift */,
+				E35D9221296EFADA007290BA /* SongDetailView.swift */,
+				E35D9223296EFB3E007290BA /* SettingsView.swift */,
+				E35D921F296EE7BC007290BA /* RootView.swift */,
+				E35D9225296EFBF2007290BA /* BookDetailView.swift */,
+			);
+			path = "third tab";
+			sourceTree = "<group>";
+		};
+		E35D9210296EE3A2007290BA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E35D9211296EE3AD007290BA /* Book.swift */,
+				E35D9219296EE620007290BA /* Song.swift */,
+				E35D921B296EE626007290BA /* Movie.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E35D922B296F1CCA007290BA /* view model */ = {
+			isa = PBXGroup;
+			children = (
+				E35D9229296F1B27007290BA /* NavigationStateManager.swift */,
+				E35D921D296EE733007290BA /* ModelDataManager.swift */,
+			);
+			path = "view model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +222,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35D921A296EE620007290BA /* Song.swift in Sources */,
 				E35D91FE296ED922007290BA /* ContentView.swift in Sources */,
+				E35D9216296EE4B7007290BA /* BookDestinationView.swift in Sources */,
+				E35D922A296F1B27007290BA /* NavigationStateManager.swift in Sources */,
+				E35D9218296EE615007290BA /* ThirdTabView.swift in Sources */,
+				E35D921C296EE626007290BA /* Movie.swift in Sources */,
+				E35D920F296EDB16007290BA /* DetailView.swift in Sources */,
+				E35D920D296ED969007290BA /* FirstTabView.swift in Sources */,
+				E35D9226296EFBF2007290BA /* BookDetailView.swift in Sources */,
+				E35D9224296EFB3E007290BA /* SettingsView.swift in Sources */,
+				E35D921E296EE733007290BA /* ModelDataManager.swift in Sources */,
+				E35D9220296EE7BC007290BA /* RootView.swift in Sources */,
+				E35D9212296EE3AD007290BA /* Book.swift in Sources */,
+				E35D9214296EE409007290BA /* SecondTabView.swift in Sources */,
+				E35D9222296EFADA007290BA /* SongDetailView.swift in Sources */,
+				E35D9228296EFCF1007290BA /* MovieDetailView.swift in Sources */,
 				E35D91FC296ED922007290BA /* NavigationStackProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
